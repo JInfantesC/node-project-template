@@ -1,0 +1,23 @@
+{
+	"name": "node-project-template",
+	"version": "0.1.0",
+	"description": "My custom template for a new node.js project featuring my lint config and devDependencies",
+	"main": "main.js",
+	"scripts": {
+		"lint": "eslint --ext .js --ignore-path .gitignore .",
+		"lintfix": "eslint --fix --ext .js --ignore-path .gitignore .",
+		"start": "node main.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywordAs": [],
+	"author": "JInfantesC",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.10.0",
+		"eslint-loader": "^3.0.3",
+		"eslint-plugin-prettier": "^3.1.2",
+		"prettier": "^1.19.1"
+	}
+}
