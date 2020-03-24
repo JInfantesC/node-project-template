@@ -1,1 +1,2 @@
-console.log("These is where the fun begins!");
+const { name, version } = require("./package.json");
+console.log("This is where the fun begins!", name, version);
