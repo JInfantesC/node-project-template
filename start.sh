@@ -1,4 +1,7 @@
 #!/bin/bash
+# Remove original repo git folder
+echo "start.sh -> Remove original .git folder"
+rm -rf .git
 # Init this project with version control and npm install
 echo "start.sh -> Running git init and npm install"
 if git init & npm install ; then
