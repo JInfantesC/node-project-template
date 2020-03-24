@@ -4,11 +4,12 @@ My custom template for a new node.js project featuring my lint config and devDep
 
 ## How to use
 
-Just clone this repository and in a terminal run the script  `start.sh` to initialize git and install npm modules.
+Just clone this repository and in a terminal run the script `start.sh` to initialize git to an empty repository and install every npm module defined in `package.json`.
+`start.sh` will be deleted if everything executed without issues.
 
 If you need to give executable permissions to `start.sh` run `chmod +x start.sh`.
 
-`start.sh` will be deleted if everything run without issues. 
+**Remember to edit this `readme.md` and `package.json` with your project info.**
 
 ## License
 

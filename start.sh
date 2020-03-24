@@ -9,6 +9,7 @@ if git init & npm install ; then
 	if npm start ; then
 		echo "start.sh -> Removing shell script"
 		rm start.sh
+		echo "start.sh -> Remember to edit package.json and readme.md"
 	fi
 else
 	echo "start.sh -> Something wrong happen. Check logs and try again"

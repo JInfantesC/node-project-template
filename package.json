@@ -2,6 +2,9 @@
 	"name": "node-project-template",
 	"version": "0.1.0",
 	"description": "My custom template for a new node.js project featuring my lint config and devDependencies",
+	"keywordAs": [],
+	"author": "JInfantesC",
+	"license": "ISC",
 	"main": "main.js",
 	"scripts": {
 		"lint": "eslint --ext .js --ignore-path .gitignore .",
